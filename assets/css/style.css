@@ -9,8 +9,8 @@ body {
 /*name and nav bar*/
 
 .topstuff {
-    background: green;
-    color: white;
+    background:white;
+    color: lightgray;
     position: static;
     width: auto;
     padding: 20px;
@@ -20,7 +20,7 @@ body {
 }
 
 #namebox {
-    background:blue;
+    background:cadetblue;
     color: white;
     margin: 20px;
     font-size: 13px;
@@ -29,8 +29,8 @@ body {
 }
 
 #nav-bar {
-    background: yellowgreen;
-    color: white;
+    background: white;
+    color: lightgrey;
     float: right;
     padding: 20px;
     box-sizing: border-box;
@@ -73,17 +73,22 @@ z-index: 2;
 
 .index-footer {
     clear: both;
-    background: mediumaquamarine;
     position: relative;
     height: 25px;
     text-align: center;
+    padding: 30px;
+    margin-bottom: 30px;
+    color: #333;
+    background-color: #ccc;
+    border-top: 30px blue;
 }
+
 
 /*contact page stuff*/
 
 #contact {
     clear: both;
-    background: lavender;
+    background: whitesmoke;
     padding: 35px;
 }
 
@@ -114,10 +119,10 @@ button {
     width: 960px;
     text-align: left;
     position: static;
-    background-color: #ffffff;
+    background-color: whitesmoke;
     margin: 40px auto 0px auto;
     padding-bottom: 0px;
-    border: solid yellow 1px;
+    border: solid cyan 1px;
     box-sizing: border-box;
     z-index: 2;
     overflow: hidden;  
