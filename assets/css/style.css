@@ -73,7 +73,6 @@ z-index: 2;
 
 .index-footer {
     clear: both;
-    position: relative;
     height: 25px;
     text-align: center;
     padding: 30px;
@@ -81,6 +80,7 @@ z-index: 2;
     color: #333;
     background-color: #ccc;
     border-top: 30px blue;
+    position: sticky;
 }
 
 
@@ -127,3 +127,80 @@ button {
     z-index: 2;
     overflow: hidden;  
 }
+
+/* portfolio stuff*/
+
+.portfolio-container {
+    clear: both;
+    background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-top: solid 3px #ccc
+}
+
+.main-content {
+width: 960px;
+text-align: left;
+position: static;
+background: #ffffff;
+margin-top: 40px;
+margin-right: auto;
+margin-bottom: 0;
+margin-left: auto;
+padding-bottom: 0;
+border: solid #cccccc 1px;
+box-sizing: border-box;
+z-index: 2;
+overflow: hidden;
+padding: 35px;
+}
+
+#portfolio {
+    background: white;
+    padding: 20px;
+}
+ #main-header {
+     color: #4aaaa5;
+ }
+
+ .portfolio-pictures {
+     background: white;
+     padding: 25px;
+     margin: 20px;
+     width: 960;
+ }
+
+ #port1 {
+     clear: both;
+     float: left;
+     background: #4aaaa5;
+     color: white;
+     position: absolute;
+ }
+
+ .hangman {
+    float: left;
+ }
+
+ #port2 {
+     clear: both;
+     float: left;
+     background: #4aaaa5;
+     color: white;
+     position: absolute;
+ }
+
+ .rpg {
+
+ }
+
+ #port3 {
+     clear: both;
+     background: #4aaaa5;
+     color: white;
+     position: absolute;
+ }
