@@ -39,13 +39,25 @@ body {
 
 /*about me section*/
 
-#index-box {
+.index-container {
+    width: 960px;
+    text-align: left;
+    position: static;
+    margin: 40px auto 0px auto;
+    padding-bottom: 0px;
+    border: solid cyan 1px;
+    box-sizing: border-box;
+    z-index: 2;
+    overflow: hidden;  
+    background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+}
+
+.index-box {
     clear: both;
-    background: green;
     padding: 10px;
     margin: auto;
-    width: 965px;
-    height: 350px;
+    background: white;
+    color: black;
 }
 
 #mypicture {
@@ -54,33 +66,34 @@ float: left;
 padding: 30px 0px 0px 30px;
 margin: 0px;
 z-index: 2;
-
 }
+
 #index-header {
     clear: both;
 }
 
 #about-me-section {
-    background: blueviolet;
+    background: whitesmoke;
     border: 25px;
     padding: 20px 10px 20px 10px;
     clear: both;
-    position: relative;
     text-align: left;
     content: normal;
     margin: 35px;
 }
 
 .index-footer {
-    clear: both;
-    height: 25px;
-    text-align: center;
-    padding: 30px;
-    margin-bottom: 30px;
-    color: #333;
-    background-color: #ccc;
-    border-top: 30px blue;
-    position: sticky;
+        padding: 30px 0;
+        clear: both;
+        font-size: 12px;
+        color: #ffffff;
+        color: #cccccc;
+        text-align: center;
+        background: #666666;
+        border-top: 8px solid #4aaaa5;
+        height: 50px;
+      }
+      
 }
 
 
@@ -119,13 +132,14 @@ button {
     width: 960px;
     text-align: left;
     position: static;
-    background-color: whitesmoke;
     margin: 40px auto 0px auto;
     padding-bottom: 0px;
     border: solid cyan 1px;
     box-sizing: border-box;
-    z-index: 2;
+    z-index: 1;
     overflow: hidden;  
+    background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    color: white;
 }
 
 /* portfolio stuff*/
